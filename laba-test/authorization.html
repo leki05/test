@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    device-width, initial-scale=1.0">
+    <title>Авторизация</title>
+    <link rel="stylesheet" href="/authorization.css">
+</head>
+<body>
+    <div class="form_auth_block">
+        <div class="form_auth_block_content">
+          <h1 class="form_auth_block_head_text">Авторизация</h1>
+          <form class="form_auth_style" action="#" method="post">
+            <label>Введите Ваш имейл</label>
+            <input type="email" name="auth_email" placeholder="Введите Ваш имейл" required >
+            <label>Введите Ваш пароль</label>
+            <input type="password" name="auth_pass" placeholder="Введите пароль" required style="margin-bottom: 30px;">
+            <div style="display: flex; margin-bottom: 50px;">
+              <input type="button"onclick="validateLoginForm()" style="border: 2px inset rgb(180, 114, 241); width: 100px; height: 50px;" value="Войти" >
+              <input type="button"onclick="validateRegistrForm()" style="border: 2px inset rgb(180, 114, 241); width: 100px; height: 50px;" value="Регистрация" >
+            </div>
+
+          </form>
+        </div>
+      </div>
+      <script src="/authorization.js"></script>
+</body>
+</html>

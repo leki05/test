@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <section class="general">
+        <div class="zagalovok">
+            <h1 class="">Тест на тестировщика</h1><br>
+        </div>
+        <div class="question">
+            <h3>Вопрос 1</h3>
+            <p>Вы сделали все тест-кейсы для новой версии приложения, но в последний момент в него добавили новую функциональность — и теперь нужно выполнить все позитивные тесты. Как называется такой вид тестов?</p>
+            <ul class="variants">
+                <input type="radio" name="question1" id="">Мануальное тестирование.</input><br>
+                <input type="radio" name="question1" value="1" id="correct">Регрессионное тестирование.1</input><img src="" alt="" id="verni1"><br>
+                <input type="radio" name="question1" id="">Автотестирование.</input><br>
+                <input type="radio" name="question1" id="">Дымовой тест.</input><br>
+            </ul>
+        </div>
+        <div class="question">
+            <h3>Вопрос 2</h3>
+            <p>Вы нашли баг: при авторизации на сайте через «ВКонтакте» выскакивает ошибка. Заходите в баг-трекер, разминаете костяшки пальцев и пишете заголовок рапорта.</p>
+            <ul class="variants">
+                <input type="radio" name="question2" id="">«Не работает авторизация».</input><br>
+                <input type="radio" name="question2" value="1" id="correct">«Некорректная авторизация на сайте через „ВКонтакте“»1</input><img src="" alt="" id="verni2"><br>
+            </ul>
+        </div>
+        <div class="question">
+            <h3>Вопрос 3</h3>
+            <p>Кажется, кто-то забыл, что запись даты в США начинают с месяца. Вас просят найти все строки формата ДД.ММ.ГГГГ и поменять их на ММ.ДД.ГГГГ. Поиск показывает, что таких дат больше тысячи. Что делаем?            </p>
+            <ul class="variants">
+                <input type="radio" name="question3" id="">Берём работу на выходные и подключаем руки. А ведь так хотелось сгонять на пляж…</input><br>
+                <input type="radio" name="question3" value="1" id="correct">Попробуем заменить через регулярные выражения.1</input><img src="" alt="" id="verni3"><br>
+                <input type="radio" name="question3" id="">Ничего исправлять не нужно, это не ошибка.</input><br>
+            </ul>
+        </div>
+        <div class="question">
+            <h3>Вопрос 4</h3>
+            <p>Тестируя сервис по доставке еды, вы обнаруживаете, что пользователи из Санкт-Петербурга не смогут сделать в нём новые заказы. Пока город просыпается, вы составляете баг-репорт и решаете приложить к нему список всех пользователей из Санкт-Петербурга по ID. Какой SQL-запрос вы составите для этого?</p>
+            <ul class="variants">
+                <input type="radio" name="question4" id="">select * from Сity</input><br>
+                <input type="radio" name="question4" value="1" id="correct">select * from UsersID where City = 'Saint_Petersburg'1</input><img src="" alt="" id="verni4"><br>
+                <input type="radio" name="question4" id="">select City, count (UsersID) from Customers group by = 'Saint_Petersburg'</input><br>
+            </ul>
+        </div>
+        <div class="question">
+            <h3>Вопрос 5</h3>
+            <p>Коллега рассказывает, что как-то проходил whiteboard-собеседование и это было ужасно. Вы с умным видом киваете и говорите следующее:
+            </p>
+            <ul class="variants">
+                <input type="radio" name="question5" value="1" id="correct">Что, на листочке писал код, да?1</input><img src="" alt="" id="verni5"><br>
+                <input type="radio" name="question5" id="">Я бы тоже хотел на скейте пройти собеседование.</input><br>
+                <input type="radio" name="question5" id="">Пришлось прийти на собеседование в белом?</input><br>
+            </ul>
+        </div>
+        <div class="question">
+            <h3>Вопрос 6</h3>
+            <p>Главное в нашей работе — делать всё последовательно. Посмотрите, верно ли расставлены этапы жизненного цикла тестирования на картинке.</p>
+            <img src="/laba-test/image5.jpg" alt="">
+            <ul class="variants">
+                <input type="radio" name="question6" id="">Да, всё верно!</input><br>
+                <input type="radio" name="question6" value="1" id="correct">Нет, здесь есть ошибка.1</input><img src="" alt="" id="verni6"><br>
+                <input type="radio" name="question6" id="">Этапов вообще не существует.</input><br>
+            </ul>
+        </div>
+        <div class="question">
+            <h3>Вопрос 7</h3>
+            <p>Вам нужно позитивно протестировать форму входа на сайт. Как будете действовать?</p>
+            <img src="/laba-test/image1.jpg" alt="">
+            <ul class="variants">
+                <input type="radio" name="question7" value="1" id="correct">Попробую все возможные типы символов в обоих полях.1</input><img src="" alt="" id="verni7"><br>
+                <input type="radio" name="question7" id="">Попробую «сломать» вход, используя редкие символы и знаки.</input><br>
+            </ul>
+        </div>
+        <div class="question">
+            <h3>Вопрос 8</h3>
+            <p>Между тестированием и QA есть разница?</p>
+            <ul class="variants">
+                <input type="radio" name="question8" id="">Это одно и то же.</input><br>
+                <input type="radio" name="question8" value="1" id="correct">Конечно, есть.1</input><img src="" alt="" id="verni8"><br>
+
+            </ul>
+        </div>
+        <div class="question">
+            <h3>Вопрос 9</h3>
+            <p>Вам поступил тест-кейс для проверки работы онлайн-магазина. На шаге 12 не появилась кнопка «Готово». Что будете делать?</p>
+            <img src="/laba-test/image6.jpg" alt="">
+            <ul class="variants">
+                <input type="radio" name="question9" value="1" id="correct">Сразу зарепорчу баг и перейду к следующей задаче.1</input><img src="" alt="" id="verni9"><br>
+                <input type="radio" name="question9" id="">Продолжу тестирование, тест-кейсы нужно доводить до конца, чтобы получить положительный или отрицательный результат.</input><br>
+            </ul>
+        </div>
+        <div class="question">
+            <h3>Вопрос 10</h3>
+            <p>Финальный вопрос. Как думаете, почему в этом тесте предлагается только один верный вариант ответа?</p>
+            <ul class="variants">
+                <input type="radio" name="question10" id="">Так задумал автор теста.</input><br>
+                <input type="radio" name="question10" id="">Просто тесты с одним ответом — это классно!</input><br>
+                <input type="radio" name="question10" value="1" id="correct">Видимо, есть какое-то техническое ограничение.1</input><img src="" alt="" id="verni10"><br>
+            </ul>
+        </div>
+
+        <div class="gotov">
+            <button onclick="checkAnswers()"> Узнать результат </button>
+        </div>
+    </section>
+    <script src="/script.js"></script>
+</body>
+</html>
